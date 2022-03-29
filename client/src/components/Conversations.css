@@ -1,0 +1,33 @@
+.conversation{
+    display: flex;
+    flex-direction: column;
+    background-color: #293145;
+    padding-top: 10px;
+}
+
+.conversation__item{
+    display: flex;
+    outline: none;
+    border: none;
+    width: 85%;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto';
+    margin: 0 auto 10px;
+    background-color: rgba(49,58,85, 1);
+    transition: all 0.2s linear;
+    border-radius: 10px;
+}
+.conversation__item:hover{
+    background-color: rgba(58,141,245, 1);
+}
+.conversation__item__text{
+    font-size: 17.5px;
+    color: rgba(255,255,255,1);
+    font-weight: 500;
+}
+.conversation__item:focus{
+    outline: none;
+    border: none;
+}

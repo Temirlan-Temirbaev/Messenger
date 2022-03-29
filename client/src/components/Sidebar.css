@@ -1,0 +1,69 @@
+/* STYLING NAVIGATION BAR
+====================================================== */
+.nav{
+    display: flex;
+    height: 120px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(49,58,85, 1)
+}
+.nav__item{
+    display: flex;
+    width: 85%;
+    height: 50px;
+    border-color: rgba(49,58,85,1);
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    transition: all 0.1s linear;
+}
+.nav__item:hover{
+    cursor: pointer;
+    background-color: #232A3B;
+}
+.nav__item-text{
+    color: #ffffff;
+    font-size: 17.5px;
+}
+.nav__itemActive{
+    display: flex;
+    width: 85%;
+    height: 50px;
+    background-color: #3A8CF4;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.id-container{
+    background-color: rgba(49,58,85, 1);
+    color: #ffffff;
+}
+.id-container__text{
+    color: #878787;
+}
+.create-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    border-radius: 0;
+}
+.create-button__elem{
+    width: 100%;
+    height: 100%;
+    outline: none;
+    border: none;
+    font-size: 17.5px;
+    background-color: #293145;
+    color: #ffffff;
+    transition: background-color 0.1s linear, color 0.1s linear;
+}
+.create-button__elem:hover{background-color: #1d202f;
+
+    color: #c8c2c2;
+}
+.create-button__elem:focus{
+    outline: none;
+    border: none;
+}

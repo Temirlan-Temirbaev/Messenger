@@ -1,0 +1,40 @@
+.contacts{
+    display: flex;
+    flex-direction: column;
+    background-color: #293145;
+    padding-top: 10px;
+}
+
+.contact__item{
+    display: flex;
+    outline: none;
+    border: none;
+    width: 85%;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    background-color: #313B56;
+    font-family: 'Roboto';
+    color: #DFE6EE;
+    border-radius: 10px;
+    border-color: rgba(49,58,85, 1);
+    margin: 0 auto 10px;
+    transition: all 0.1s linear, color 0.2s linear;
+}
+.contact__item:hover{
+    --tw-translate-x: 0;
+    --tw-translate-y: 0;
+    --tw-rotate: 0;
+    --tw-skew-x: 0;
+    --tw-skew-y: 0;
+    --tw-scale-x: 1.1;
+    --tw-scale-y: 1.1;
+    transform: translateX(var(--tw-translate-x)) translateY(var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    color: white;
+    transition-duration: 0.1s;
+}
+.contact__item:focus{
+    outline: none;
+    border: none;
+}

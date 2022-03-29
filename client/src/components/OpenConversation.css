@@ -1,0 +1,12 @@
+.messageText{
+    font-size: 34px;
+    background-color: rgba(49,58,85, 1);
+    border: none;
+    outline: none;
+}
+
+@media screen and (max-width: 740px){
+    .messageText{
+        font-size: 26px;
+    }
+}
